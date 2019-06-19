@@ -33,7 +33,7 @@ section {
 
 .subtitle h4 {
     font: 1.1em 'opensans-bold', sans-serif;
-    color: #158478;
+    color: #008B8B;
     font-weight: bolder;    
 }
 
@@ -53,14 +53,8 @@ section {
     font-size: 16px;
 }
 
-.fa-facebook {
-    font-size: 20px;
-    color: grey;
-    margin-right: 50px;
-}
-
 .navbar {
-   height: 45px; 
+   min-height: 50px; 
 }
 
 }
@@ -152,7 +146,7 @@ header.masthead {
 
 #quote p {
     font: 1em 'opensans-bold', sans-serif;
-    color: #158478;
+    color: #008B8B;
     line-height: 1.4em;
 }
 
@@ -161,7 +155,7 @@ header.masthead {
 }
 
 #silke {
-    border: 3px solid #158478;
+    border: 3px solid #008B8B;
     border-radius: 50%;
     display: block;
     max-width: 100%;
@@ -311,40 +305,6 @@ header.masthead {
   right: auto;
 }
 
-.timeline-badge.primary {
-  background-color: #2e6da4 !important;
-}
-
-.timeline-badge.success {
-  background-color: #3f903f !important;
-}
-
-.timeline-badge.warning {
-  background-color: #f0ad4e !important;
-}
-
-.timeline-badge.danger {
-  background-color: #d9534f !important;
-}
-
-.timeline-badge.info {
-  background-color: #5bc0de !important;
-}
-
-.timeline-title {
-  margin-top: 0;
-  color: inherit;
-}
-
-.timeline-body > p,
-.timeline-body > ul {
-  margin-bottom: 0;
-}
-
-.timeline-body > p + p {
-  margin-top: 5px;
-}
-
 .strayCretePic {
 	width: 100%;
 	margin: 0 12px 12px 12px;
@@ -353,5 +313,76 @@ header.masthead {
 /* Contact */
 
 #contact {
-    background: #158478;
+    background: #008B8B;
 }
+
+.btn-primary {
+    background: #ed6a5a;
+    color: white;
+    border: #0d0d0d;
+}
+
+.btn-primary:hover {
+    background: #9bc1bc;
+    color: black;
+    border: #0d0d0d;
+}
+
+.NLA_detailsTitle {
+	padding-top: 10px;
+}
+
+
+.NLA_details h4 {
+    font: 1.1em 'opensans-bold', sans-serif;
+    color: #f2f2f2;
+    font-weight: bolder; 
+}
+
+.NLA_details p {
+    font: 1em 'opensans-bold', sans-serif;
+    color: #f2f2f2;
+    line-height: 1.4em;   
+}
+
+.NLA_details a:link {
+  color: #ed6a5a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.NLA_details a:visited {
+  color: #f4f1bb;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.NLA_details a:hover {
+  color: #f4f1bb;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.NLA_details a:active {
+  color: #ed6a5a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+	width: 100%;
+	background-color: #1a1a1a;
+   	text-align: center;
+   	padding-top: 2%;
+   	padding-bottom: 2%;
+   	vertical-align: middle;
+}
+
+#copyright p {
+    font: 1em 'opensans-bold', sans-serif;
+    color: #a9a9a9;
+    line-height: 1.4em;  
+}
+

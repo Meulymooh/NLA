@@ -30,9 +30,9 @@
         <div id="brandWrapper">
             <a class="navbar-brand" href="#">Noah's Little Ark</a>
         </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -73,7 +73,7 @@
     </nav>
 
 <!-- Intro -->
-<header class="masthead">
+<header class="masthead" id="home">
     <div class="intro-text">
         <h1><strong>NOAH'S LITTLE ARK</strong></h1><br/>
         <h2><b>Animal Protection Society of Chania<b></h2><br/><br/>
@@ -209,9 +209,80 @@
 		<div class="row title center">
         	<h3>Contact Us</h3>
     	</div>
+			
+			<div class="row">
 
-	</div>
+            	<div class="col col-sm-4"> 
+            		<div class="row NLA_details NLA_detailsTitle">
+            			<p><b>Noah's Little Ark (Silke Wrobel):</b></p>
+            		</div>
+            		<div class="row NLA_details">
+            			<p>Daskalogiannis 39 <br>Chania, 73100<br>Crete, Greece</p>
+            		</div>
+            		<div class="row NLA_details">
+            			<p>+30 6946881155</p>
+            		</div>  
+            		 <div class="row NLA_details">
+            			<p><b>In case of emergency:</b></p>
+            		</div> 
+            		<div class="row NLA_details">
+            			<p>Visit our <a href="https://www.facebook.com/groups/littlenoahsark/">Facebook</a> page.</p>
+            		</div>
+
+            	</div>
+
+      		<div class="col col-sm-2">
+    		</div>
+
+      		<div class="col col-sm-6">
+      			<h5 class="text-center text-success"></h5>
+        		<form action="" method="post" id="form-box" class="p-2">
+          			<div class="form-group input-group">
+            			<div class="input-group-prepend">
+              				<span class="input-group-text"><i class="fas fa-user"></i>
+              				</span>
+            			</div>
+            			<input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+          			</div>
+          			<div class="form-group input-group">
+            			<div class="input-group-prepend">
+              				<span class="input-group-text"><i class="fas fa-envelope"></i>
+              				</span>
+            			</div>
+            			<input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+          			</div>
+          			<div class="form-group input-group">
+            			<div class="input-group-prepend">
+              				<span class="input-group-text"><i class="fas fa-at"></i>
+              				</span>
+            			</div>
+            			<input type="text" name="subject" class="form-control" placeholder="Enter subject" required>
+          			</div>
+          			<div class="form-group input-group">
+            			<div class="input-group-prepend">
+              				<span class="input-group-text"><i class="fas fa-comment-alt"></i>
+              				</span>
+            			</div>
+            			<textarea name="msg" id="msg" class="form-control" placeholder="Write your message" cols="30" rows="4" required></textarea>
+          			</div>
+          			<div class="form-group">
+            			<input type="submit" name="submit" id="submit" class="btn btn-primary btn-block" value="Send">
+          			</div>
+        		</form>
+
+      		</div><!-- End of form column -->
+
+   		</div><!-- End of row -->
+	</div><!-- End of container -->
 </section>
+
+<footer id="footer">
+	<div id="copyright">
+		<p>© <?php echo date("Y"); ?> Emilie Mesureur for Noah's Little Ark</p>
+	</div>
+
+</footer>
+
 
 </body>
 

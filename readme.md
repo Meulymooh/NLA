@@ -16,8 +16,15 @@ I got in contact with NLA when trying to rescue a cat there and have been financ
 
 ## Details about the website
 
-Made with bootstrap.
+* Starting date: 15th June, 2019
+* Framework: bootstrap
+* Languages: HTML, CSS, Javascript, PHP
 
-## To be implemented
+## Finished
 
+* Homepage
+
+## To be completed
+
+* All other pages.
 * Calling all pages and sections via PHP.
