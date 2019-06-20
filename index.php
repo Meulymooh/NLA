@@ -47,7 +47,7 @@
                     <a class="nav-link" href="#">Happy Endings</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support Us</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="#">Support Us</a>
                     <ul class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Donate</a></li>
                         <li><a class="dropdown-item" href="#">Adopt</a></li>
@@ -99,7 +99,7 @@
          </div>
         <div class="row center">
             <div class="col col-md-2">
-                <img src="img/silke2.jpg" id="silke">
+                <img src="img/silke2.jpg" id="silke" alt="Silke cuddling a kitten">
             </div>
             <div class="col col-md-10 text" id="introNLA">
                 <p>Created by Silke Wrobel, NLA is a non-profit organization that deals with animal rescue and welfare in the Chania area of Crete, Greece. With no government subsidies, it relies solely on donations.</p>
@@ -194,7 +194,7 @@
           			<h4 class="timeline-title">Help us</h4>
         		</div>
         		<div class="timeline-body text">
-          			<p>That's why <b>Noah's Little Ark</b> is in urgent need of your support! Money, pet food and medicines are always welcome. Check the support page for more details.</p><br/>
+          			<p>That's why <b>Noah's Little Ark</b> is in urgent need of your support! Money, pet food and medicines are always welcome. Check the support page for more details.</p>
           			<button type="button" class="btn btn-outline-dark btn-intro">Support us</button>
         		</div>
       		</div>
@@ -228,7 +228,7 @@
             			<p><b>In case of emergency:</b></p>
             		</div> 
             		<div class="row NLA_details">
-            			<p>Visit our <a href="https://www.facebook.com/groups/littlenoahsark/">Facebook</a> page.</p>
+            			<p>Visit our <a href="https://www.facebook.com/groups/littlenoahsark/"><b>Facebook</b></a> page.</p>
             		</div>
 
             	</div>
@@ -237,7 +237,6 @@
     		</div>
 
       		<div class="col col-sm-6">
-      			<h5 class="text-center text-success"></h5>
         		<form action="" method="post" id="form-box" class="p-2">
           			<div class="form-group input-group">
             			<div class="input-group-prepend">
