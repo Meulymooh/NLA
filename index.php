@@ -26,15 +26,14 @@
   
 <!-- Fixed navbar -->
 
-    <nav id="mynav" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-        <div id="brandWrapper">
-            <a class="navbar-brand" href="#">Noah's Little Ark</a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        	<span class="navbar-toggler-icon"></span>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a href="/" class="navbar-brand"><b>NLA</b></a>
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+        <div class="navbar-collapse collapse" id="navbar9">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
@@ -66,18 +65,21 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <div class="form-inline buttonContainer">
-                <a class="btn btn-danger" href="#" role="button">DONATE</a>
-            </div>
+            <form class="form-inline buttonContainer">
+				<a class="btn btn-danger" href="#" role="button">DONATE</a>
+			</form>
         </div>
-    </nav>
+    </div>
+</nav>
 
 <!-- Intro -->
 <header class="masthead" id="home">
-    <div class="intro-text">
-        <h1><strong>NOAH'S LITTLE ARK</strong></h1><br/>
-        <h2><b>Animal Protection Society of Chania<b></h2><br/><br/>
-    </div>
+	<div class=row>
+    	<h1><strong>NOAH'S LITTLE ARK</strong></h1><br/>
+	</div>
+	<div class=row>
+    	<h2><b>Animal Protection Society of Chania</b></h2>
+   	</div>
 </header>
 
 <!-- General presentation of NLA -->
@@ -85,7 +87,7 @@
 
     <div class="container-fluid">
         <div class="row center">
-            <img src="img/logo.png" id="logo" alt="Noah's Little Ark logo">
+            <img src="img/logo.png" id="logo2" alt="Noah's Little Ark logo">
         </div>
         <div class="row title center">
             <h3>Welcome to Noah's Little Ark!</h3>
@@ -170,7 +172,7 @@
       		</div>
       		<div class="timeline-panel">
       			<div class="row timeline-heading center">
-            		<img class="img-responsive strayCretePic" src="img/hungry.jpg" alt="Malnutritioned dog" />
+            		<img class="img-responsive strayCretePic" src="img/trash2.jpg" alt="Stray dog at a trash container" />
         		</div>
         		<div class="timeline-heading subtitle">
           			<h4 class="timeline-title">What is the government doing?</h4>
@@ -186,7 +188,7 @@
       		</div>
       		<div class="timeline-panel">
       			<div class="row timeline-heading center">
-            		<img class="img-responsive strayCretePic" src="img/emergency.jpg" alt="Silke feeding a kitten" />
+            		<img class="img-responsive strayCretePic" src="img/food.jpg" alt="getting food for the strays" />
         		</div>
         		<div class="timeline-heading subtitle">
           			<h4 class="timeline-title">Help us</h4>
@@ -278,7 +280,7 @@
 
 <footer id="footer">
 	<div id="copyright">
-		<p>© <?php echo date("Y"); ?> Emilie Mesureur for Noah's Little Ark</p>
+		<p>© <?php echo date("Y"); ?> Emilie Mesureur -for- Noah's Little Ark</p>
 	</div>
 
 </footer>
