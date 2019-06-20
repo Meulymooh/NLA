@@ -72,6 +72,11 @@ section {
   padding-right:20px;
 }
 
+.navbar-collapse {
+   background: #343a40;
+   padding-bottom: 15px;
+}
+
 /* If logo */
 
 /*#logo1 {
@@ -191,6 +196,7 @@ header.masthead p {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+  float: none;
 }
 
 .timeline:before {
@@ -301,6 +307,60 @@ header.masthead p {
 	width: 100%;
   height: 100%;
 	padding: 0 12px 12px 12px;
+}
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 20px;
+    }
+
+    ul.timeline > li {
+      margin-bottom: 25px;
+      position: relative;
+      width:100%;
+      float: left;
+      clear: left;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 46px);
+        width: -moz-calc(100% - 46px);
+        width: -webkit-calc(100% - 46px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 8px;
+        margin-left: 0;
+        top: 18px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 13px;
+            left: -13px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 11px;
+            left: -11px;
+            right: auto;
+        }
+    
+.timeline > li.timeline-inverted{
+  float: left; 
+  clear: left;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.timeline > li.timeline-inverted > .timeline-badge{
+  left: 8px;
+}
 }
 
 /* Contact */

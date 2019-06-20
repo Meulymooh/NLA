@@ -83,7 +83,7 @@
 </header>
 
 <!-- General presentation of NLA -->
-<section id="presentation">
+<section id="presentation" class="clearfix">
 
     <div class="container-fluid">
         <div class="row center">
@@ -111,7 +111,7 @@
 </section>
 
 <!-- Situations of strays in Crete -->
-<section id="situation">
+<section id="situation" class="clearfix">
 	<div class="container-fluid">
 
 		<div class="row title center">
@@ -201,11 +201,11 @@
     	</li>
   	</ul>
 
-</div>
+	</div>
 </section>
 
 <!-- Contact -->
-<section id="contact">
+<section id="contact" class="clearfix">
 	<div class="container-fluid">
 
 		<div class="row title center">
