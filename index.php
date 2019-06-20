@@ -278,13 +278,16 @@
 	</div><!-- End of container -->
 </section>
 
-<footer id="footer">
-	<div id="copyright">
-		<p>© <?php echo date("Y"); ?> Emilie Mesureur -for- Noah's Little Ark</p>
-	</div>
+<!-- Footer -->
+<footer class="page-footer font-small grey darken-4">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-4"><p>© <?php echo date("Y"); ?> Copyright
+    <a href="https://emiliemesureur.com/"> Emilie Mesureur</a> for <a href="http://emilie.watlock.be/nla/index.php"> Noah's Little Ark</a></p>
+  </div>
+  <!-- Copyright -->
 
 </footer>
-
 
 </body>
 

@@ -364,18 +364,37 @@ header.masthead p {
 
 /* Footer */
 
-#footer {
-	width: 100%;
-	background-color: #1a1a1a;
-   	text-align: center;
-   	padding-top: 2%;
-   	padding-bottom: 2%;
-   	vertical-align: middle;
+.page-footer {
+  background: #212121;
 }
 
-#copyright p {
+.page-footer p {
     font: 1em 'opensans-bold', sans-serif;
     color: #a9a9a9;
-    line-height: 1.4em;  
+    margin: 0;
+    padding: 0;
 }
 
+.page-footer a:link {
+  color: #008B8B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.page-footer a:visited {
+  color: #ed6a5a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  color: #ed6a5a;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.page-footer a:active {
+  color: #008B8B;
+  background-color: transparent;
+  text-decoration: underline;
+}
