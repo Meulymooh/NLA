@@ -362,6 +362,16 @@ header.masthead p {
   text-decoration: underline;
 }
 
+.fa-facebook {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 2em;
+}
+
+#facebookIcon {
+  padding-left: 18%;
+}
+
 #submit {
   width: 150px;
 }

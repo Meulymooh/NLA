@@ -228,7 +228,10 @@
             			<p><b>In case of emergency:</b></p>
             		</div> 
             		<div class="row NLA_details">
-            			<p>Visit our <a href="https://www.facebook.com/groups/littlenoahsark/"><b>Facebook</b></a> page.</p>
+            				<p>Visit our <a href="https://www.facebook.com/groups/littlenoahsark/" target="_blank">Facebook</a> page.</p>
+            		</div> 
+            		<div class="row NLA_details">
+            			<a href="https://www.facebook.com/groups/littlenoahsark/#" target="_blank" id="facebookIcon"><i class="fab fa-facebook"></i></a>
             		</div>
 
             	</div>
@@ -254,7 +257,7 @@
           			</div>
           			<div class="form-group input-group">
             			<div class="input-group-prepend">
-              				<span class="input-group-text"><i class="fas fa-at"></i>
+              				<span class="input-group-text"><i class="fas fa-underline"></i>
               				</span>
             			</div>
             			<input type="text" name="subject" class="form-control" placeholder="Enter subject" required>
@@ -282,7 +285,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-4"><p>© <?php echo date("Y"); ?> Copyright
-    <a href="https://emiliemesureur.com/"> Emilie Mesureur</a> for <a href="http://emilie.watlock.be/nla/index.php"> Noah's Little Ark</a></p>
+    <a href="https://emiliemesureur.com/" target="_blank"> Emilie Mesureur</a> for <a href="http://emilie.watlock.be/nla/index.php" target="_blank"> Noah's Little Ark</a></p>
   </div>
   <!-- Copyright -->
 
