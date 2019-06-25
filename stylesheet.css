@@ -8,6 +8,10 @@ section {
     width: 100%;
 }
 
+#contentWrapper {
+  width: 100%;
+}
+
 .container-fluid {
     width: 100%;
     padding: 4% 15% 4% 15%;
@@ -43,14 +47,7 @@ section {
     line-height: 1.4em;
 }
 
-
 /* Navbar */
-
-.abs-center-x {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 .navbar {
   height: 55px;
@@ -59,17 +56,22 @@ section {
 .btn-danger {
     height: 30px;
     width: 120px;
-    padding-top: 3px;
+    padding-top: 2px;
     font-size: 16px;
 }
 
 .buttonContainer {
   padding-left : 20px;
+  padding-top: 10px;
 }
 
 .navbar-nav > li{
   padding-left:20px;
   padding-right:20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-height: 30px;
+  line-height: 30px;
 }
 
 .navbar-collapse {
@@ -87,7 +89,7 @@ section {
 
 /* Intro */
 
-header.masthead {
+section.masthead {
     padding-top: 450px;   
     position: relative;
     width: 100%;
@@ -105,7 +107,8 @@ header.masthead {
     color: white;
 }
 
-header.masthead h1 {
+
+section.masthead h1 {
   font-size: 4em;
   line-height: 60px;
   margin-bottom: 25px;
@@ -113,15 +116,15 @@ header.masthead h1 {
   text-shadow: 0px 1px 2px black;
 }
 
-header.masthead h2 {
+section.masthead h2 {
     font-size: 2em;
-    line-height: 22px;
+    line-height: 35px;
     margin-bottom: 25px;
     font-family: 'opensans-bold', sans-serif;
     text-shadow: 0px 1px 2px black;
 }
 
-header.masthead p {
+section.masthead p {
     color: white; 
     font-size: 1.2em;
     line-height: 1.4;
@@ -155,10 +158,17 @@ header.masthead p {
     border: 3px solid #008B8B;
     border-radius: 50%;
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     top: -.2em; 
     left: 0;  
+}
+
+@media(max-width:767px){
+
+#silke {
+    min-width:100px;
+    }
 }
 
 #introNLA {
@@ -365,37 +375,42 @@ header.masthead p {
 
 /* Contact */
 
+.container {
+  width: 100%;
+  padding: 3% 15% 3% 15%;
+}
+
 #contact {
-    background: #008B8B;
+  background: #008B8B;
 }
 
 .btn-primary {
-    background: #ed6a5a;
-    color: white;
-    border: #0d0d0d;
+  background: #ed6a5a;
+  color: white;
+  border: #0d0d0d;
 }
 
 .btn-primary:hover {
-    background: #9bc1bc;
-    color: black;
-    border: #0d0d0d;
+  background: #9bc1bc;
+  color: black;
+  border: #0d0d0d;
 }
 
-.NLA_detailsTitle {
-	padding-top: 10px;
+.NLA_details {
+  text-align: center;
 }
 
 
 .NLA_details h4 {
-    font: 1.1em 'opensans-bold', sans-serif;
-    color: #f2f2f2;
-    font-weight: bolder; 
+  font: 1.1em 'opensans-bold', sans-serif;
+  color: #f2f2f2;
+  font-weight: bolder; 
 }
 
 .NLA_details p {
-    font: 1em 'opensans-bold', sans-serif;
-    color: #f2f2f2;
-    line-height: 1.4em;   
+  font: 1em 'opensans-bold', sans-serif;
+  color: #f2f2f2;
+  line-height: 1.4em; 
 }
 
 .NLA_details a:link {
@@ -423,13 +438,21 @@ header.masthead p {
 }
 
 .fa-facebook {
-    color: #fff;
-    text-shadow: 1px 1px 1px #ccc;
-    font-size: 2em;
+  color: #fff;
 }
 
-#facebookIcon {
-  padding-left: 18%;
+.fa-facebook:hover {
+  color: #4267b2;
+  font-size: 2em;
+}
+
+.fa-paypal {
+  color: #fff;
+}
+
+.fa-paypal:hover {
+  color: #222d65;
+  font-size: 2em;
 }
 
 #submit {
@@ -443,32 +466,36 @@ header.masthead p {
 }
 
 .page-footer p {
-    font: 1em 'opensans-bold', sans-serif;
-    color: #a9a9a9;
-    margin: 0;
-    padding: 0;
+  font: 1em 'opensans-bold', sans-serif;
+  color: #a9a9a9;
+  margin: 0;
+  padding: 0;
 }
 
 .page-footer a:link {
-  color: #008B8B;
+  color: #ed6a5a;
   background-color: transparent;
   text-decoration: none;
 }
 
 .page-footer a:visited {
-  color: #008B8B;
+  color: #ed6a5a;
   background-color: transparent;
   text-decoration: none;
 }
 
 .page-footer a:hover {
-  color: #ed6a5a;
+  color: #008B8B;
   background-color: transparent;
   text-decoration: underline;
 }
 
 .page-footer a:active {
-  color: #008B8B;
+  color: #ed6a5a;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.footer-copyright {
+  text-align: center;
 }
