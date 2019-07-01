@@ -6,7 +6,7 @@ Link: https://emilie.watlock.be/nla/index.php
 
 ## What is NLA ?
 
-Noah's Little Ark is a pet rescue organization funded in 1993 by Silke Wrobel. It relies on a network of volunteers in the Chania area of Crete. They don't get any subsidies and survive solely on private donations (money, food, medicines and equipment).
+Noah's Little Ark is a pet rescue organization founded in 1993 by Silke Wrobel. It relies on a network of volunteers in the Chania area of Crete. They don't get any subsidies and survive solely on private donations (money, food, medicines and equipment).
 
 ## Why a website ?
 
