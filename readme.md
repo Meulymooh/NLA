@@ -22,10 +22,4 @@ I got in contact with NLA when trying to rescue a cat there and have been financ
 
 ## Finished
 
-* Homepage
-
-## To be completed
-
-* Homepage: php/mysql for contact form, replace links, add logo.
-* Creating the other pages in the navbar.
-* Calling all pages and sections via PHP.
+* Homepage, about, tourist info

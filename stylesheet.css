@@ -66,29 +66,26 @@ h2 {
 /* Navbar */
 
 .btn-danger {
-	width: 120px;
+	width: 140px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.btn-warning {
+  width: 140px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .navbar-collapse {
    background: #343a40;
 }
 
-/*.navbar-nav {
-	margin-left: 10%;
-}*/
-
 .navbar-nav > li{
   padding-left:20px;
   padding-right:20px;
 }
 
-/* If logo */
-
-/*#logo1 {
-  width: 60px;
-  height: 50px;
-  color: white;
-}*/
 
 /* Intro */
 
@@ -490,18 +487,9 @@ section.masthead {
 
 /* About */
 
-#historyNLA {
-	padding-top: 60px;
+.pagePadding {
+  padding-top: 60px;
 }
-
-/*section.abouthead {
-    background-image: url("img/about.jpg");
-    min-height: 450px; 
-    background-attachment: fixed;
-    background-position: center 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
 
 @media screen and (max-width: 640px){
   .container{
@@ -594,4 +582,57 @@ section.masthead {
 
 .fadeIn-bottom{
   top: 80%;
+}
+
+/* Tourist Info */
+
+.infohead {
+    background: url("img/info3.jpg") left 65% no-repeat;
+    display: block;
+    background-size: cover;
+    clear: both;
+    width: 100%;
+    height: 400px;
+}
+
+.alert.alert-danger {
+  background-color: rgba(248, 215, 218, 1);
+/*  border-color: rgba(220, 53, 69, 1);
+*/  color: rgba(114, 28, 36,1);
+  color: #4d4d4d;
+  font: 1em 'opensans-bold', sans-serif;
+  line-height: 1.4em;
+  border-left: 4px solid rgba(220, 53, 69, 1);
+}
+
+.question {
+  color: #008B8B;
+}
+
+.question:hover {
+  color: #008B8B;;
+}
+
+.card-body a:link {
+  color: #ed6a5a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.card-body a:visited {
+  color: #ed6a5a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  color: #008B8B;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.card-body a:active {
+  color: #ed6a5a;
+  background-color: transparent;
+  text-decoration: underline;
 }

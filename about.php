@@ -1,11 +1,11 @@
 <?php include 'header.php'; ?>
 
 <!-- About -->
-<section class="clearfix" id="historyNLA">
+<section class="clearfix pagePadding">
 
 	<div class="container-fluid">
 
-		<div class="row title center" id="aboutTitle">
+		<div class="row title center">
         	<h3>About Noah's Little Ark</h3>
     	</div>
 

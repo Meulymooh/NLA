@@ -52,23 +52,21 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top text-center">
-    <div class="navbrandWrapper">
+    <div>
         <a class="navbar-brand" href="index.php">NLA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 
-  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
-    <ul class="navbar-nav">
+
+  <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
         <li class="nav-item active">
             <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="about.php">About Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="info.php">Tourist info <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="gallery.php">Photo Gallery</a>
@@ -97,13 +95,16 @@
         <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact</a>
         </li>
+                <li class="nav-item">
+            <a class="btn btn-warning" href="info.php" role="button">TOURIST INFO</a>
+        </li>
         <li class="nav-item">
             <a class="btn btn-danger" href="donate.php" role="button">DONATE</a>
         </li>
     </ul>
-
   </div>
 </nav>
+
 
 <div id='content'>
 
